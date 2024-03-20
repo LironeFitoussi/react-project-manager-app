@@ -1,5 +1,4 @@
-import React from 'react';
-import Input from '../Input/Input';
+import Input from './Input.jsx';
 
 const NewProject = () => {
     return (
@@ -14,11 +13,11 @@ const NewProject = () => {
             </menu>
             <div>
                 <Input label='Title' />
-                <Input label='Decription' textarea />
+                <Input label='Description' textarea />
                 <Input label='Due Date' />
             </div>
         </div>
     )
 };
 
-export default NewProject
+export default NewProject;
